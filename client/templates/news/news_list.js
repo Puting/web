@@ -1,4 +1,4 @@
-import News from 'news'
+import News from '../../../lib/news'
 
 Template.newsList.helpers({
   news:function(){

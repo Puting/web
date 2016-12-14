@@ -1,4 +1,4 @@
-<body>
+<template name="mainLayout">
   <div class="container">
     <header class="navbar navbar-default" role="navigation">
       <div class="navbar-header">
@@ -6,7 +6,8 @@
       </div>
     </header>
     <div id="main">
-      {{> newsList}}
+      <!-- {{> yield}} -->
+      {{ >Template.dynamic template=content }}
     </div>
   </div>
-</body>
+</template>
