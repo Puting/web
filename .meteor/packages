@@ -24,3 +24,5 @@ twbs:bootstrap
 kadira:flow-router
 kadira:blaze-layout
 less
+accounts-ui
+accounts-password

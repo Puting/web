@@ -1,5 +1,5 @@
 import { Meteor } from 'meteor/meteor';
-import News from '/lib/news';
+import News from '../lib/news';
 
 Meteor.startup(() => {
   if (News.find().count() === 0){

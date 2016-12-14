@@ -1,13 +1,106 @@
 <template name="mainLayout">
   <div class="container">
-    <header class="navbar navbar-default" role="navigation">
-      <div class="navbar-header">
-        <a class="navbar-brand" href="/">Microscope</a>
-      </div>
-    </header>
+
     <div id="main">
-      <!-- {{> yield}} -->
-      {{ >Template.dynamic template=content }}
+
+      <div class="container-fluid">
+
+        {{> header }}
+        {{> nav }}
+          <div id="banner" class="row">
+              <!--<img src="/images/mountian.jpg" class="img-responsive" alt="Responsive image">-->
+              <div id="box">
+                  <div id="box1" class="box"></div>
+                  <div id="box3" class="box"></div>
+                  <div id="box2" class="box"></div>
+              </div>
+          </div>
+          <div id="new" class="row">
+              <div class="col-xs-12">
+              <h1 style="margin-top: 116px;margin-bottom: 36px">新闻资讯</h1>
+                  {{> Template.dynamic template=content }}
+              </div>
+          </div>
+          <div id="product" class="row">
+              <div class="col-xs-12"></div>
+              <h1 style="margin-top: 116px;margin-bottom: 36px">产品中心</h1>
+              <div class="box2">
+                  <img src="/images/WeChat.png" alt="">
+                  <h2>3d打印机</h2>
+                  <h3>3D PRINT</h3>
+              </div>
+              <div class="box2">
+                  <img src="/images/WeChat.png" alt="">
+                  <h2>3d扫描仪</h2>
+                  <h3>3D EASY CAPTUR</h3>
+              </div>
+              <div class="box2">
+                  <img src="/images/WeChat.png" alt="">
+                  <h2>打印耗材</h2>
+                  <h3>SUPPLIES</h3>
+              </div>
+          </div>
+          <div id="service" class="row">
+              <div class="col-xs-12">
+                  <h1 style="margin-top: 116px;margin-bottom: 36px">客户服务</h1>
+                  <div class="box1">
+                      <h1>打印机</h1>
+                  </div>
+                  <div class="box1">
+                      <h1>线上课程</h1>
+                  </div>
+              </div>
+              <div class="col-xs-12">
+                  <div class="box1">
+                      <h1>扫描仪</h1>
+                  </div>
+                  <div class="box1">
+                      <h1>线下培训</h1>
+                  </div>
+              </div>
+              <div class="col-xs-12">
+                  <div class="box1">
+                      <h1>软件</h1>
+                  </div>
+                  <div class="box1">
+                      <h1>购买</h1>
+                  </div>
+              </div>
+          </div>
+          <div id="application" class="row">
+              <div class="col-xs-12"></div>
+              <h1 style="margin-top: 116px;margin-bottom: 36px">教学应用</h1>
+              <div class="box2">
+                  <img src="/images/WeChat.png" alt="">
+                  <h2>3d打印集成系统使用及操作说明</h2>
+                  <h3>3D打印与集成系统概述</h3>
+              </div>
+              <div class="box2">
+                  <img src="/images/WeChat.png" alt="">
+                  <h2>Tinkercad基础功能讲解之文件&鼠标操作</h2>
+                  <h3>Tinkercad基础教学</h3>
+              </div>
+              <div class="box2">
+                  <img src="/images/WeChat.png" alt="">
+                  <h2>“素描和3D打印的区别是什么”</h2>
+                  <h3>素描与3D扫描的区别</h3>
+              </div>
+          </div>
+          <div id="footer" class="row">
+              <address>
+                  <strong>Twitter, Inc.</strong><br>
+                  795 Folsom Ave, Suite 600<br>
+                  San Francisco, CA 94107<br>
+                  <abbr title="Phone">P:</abbr> (123) 456-7890
+              </address>
+              <address>
+                  <strong>Full Name</strong><br>
+                  <a href="mailto:#">first.last@example.com</a>
+              </address>
+          </div>
+      </div>>
+
+
     </div>
   </div>
 </template>
