@@ -1,5 +1,6 @@
 import { Meteor } from 'meteor/meteor';
 import News from '../lib/news';
+import Products from '../lib/products';
 
 Meteor.startup(() => {
   if (News.find().count() === 0){
@@ -16,4 +17,27 @@ Meteor.startup(() => {
       堂改革，促进学生个性化发展。近日，云南省教育信息化应用骨干教师高级培训在云大举行。云南省教育厅电教馆罗文馆长一行出席会议。',
       flagged:true
     });
-}});
+  }
+  if (Products.find().count() === 0){
+    Products.insert({
+      nameCN:'3d打印机',
+      nameEN:'3D PRINTER',
+      onMainPage:true,
+    });
+    Products.insert({
+      nameCN:'3d扫描仪',
+      nameEN:'3D EASY CAPTURER',
+      onMainPage:true,
+    });
+    Products.insert({
+      nameCN:'打印耗材',
+      nameEN:'filament',
+      onMainPage:true,
+    });
+    Products.insert({
+      nameCN:'3d软件',
+      nameEN:'3dsoftware',
+      onMainPage:false,
+    });
+  }
+});
