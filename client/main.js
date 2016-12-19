@@ -1,4 +1,1 @@
-import { Meteor } from 'meteor/meteor';
-
-Meteor.subscribe('news');
-Meteor.subscribe('products');
+import '../imports/startup/client/';

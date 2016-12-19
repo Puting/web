@@ -1,6 +1,6 @@
 import { Meteor } from 'meteor/meteor';
-import News from '../lib/news';
-import Products from '../lib/products';
+import News from '../../api/news/news';
+import Products from '../../api/products/products';
 
 Meteor.startup(() => {
   if (News.find().count() === 0){
