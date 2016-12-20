@@ -7,45 +7,16 @@ li{list-style:none}
 img{border:0;vertical-align:middle}
 table{border-collapse:collapse;border-spacing:0}
 p{word-wrap:break-word}
-.main{
-    width:100%;
-    border: 1px solid coral;
-    margin: 0px;
-    padding: 0px;
-}
 #header{
-}
-#logo{
-/*    background: url("../images/logo.png") no-repeat;
-    height: 162px;
-   /* width: 636px;
-    height: 162px;
-    margin-top: 47px;
-    margin-bottom: 50px;*/
 }
 #search{
 }
 #login{
 }
-#nav{
-    background-color: rgba(149,153,255,0.2);
-    height: 48px;
-}
-#banner{
-    background: url("../images/mountian.jpg") no-repeat center;
- /*   height: 740px;*/
-    height:740px;
-    width: 100%;
-}
 #box{
     width: 984px;
     height: 281px;
     margin: 459px auto;
-}
-.box{
-    width: 328px;
-    height: 281px;
-    float: left;
 }
 #box1{
     background-color: #00AA88;
