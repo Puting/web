@@ -26,3 +26,4 @@ kadira:blaze-layout
 less
 accounts-ui
 accounts-password
+twbs:bootstrap-noglyph
