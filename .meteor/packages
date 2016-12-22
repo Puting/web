@@ -27,3 +27,4 @@ less
 accounts-ui
 accounts-password
 twbs:bootstrap-noglyph
+arillo:flow-router-helpers
