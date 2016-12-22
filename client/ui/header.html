@@ -1,19 +1,73 @@
 <template name="header">
-  <div id="header" class="row">
-      <!--<div class="col-lg-1 col-md-1 col-sm-1 hidden-xs"></div>-->
-      <div id="logo" class="col-lg-2">
-              <img src="/images/Geometric.png" class="">
-      </div>
-      <!--<div class="col-lg-1 col-md-1 col-sm-1 hidden-xs"></div>-->
-      <!--<div class="col-lg-1 col-md-1 col-sm-1 hidden-xs"></div>-->
-      <div id="search" class="">
-              <input type="text" class="search" value=""><b>搜索</b>
-      </div>
-      <!--<div class="col-lg-1 col-md-1 col-sm-1 hidden-xs"></div>-->
-      <!--<div class="col-lg-1 col-md-1 col-sm-1 hidden-xs"></div>-->
-      <!--<div id="login" class="col-lg-2 col-md-2 col-sm-2 col-xs-4">-->
-              <!--<a href=""><img src="../public/images/qq.png"></a>-->
-      <!--</div>-->
-      <!--<div class="col-lg-1 col-md-1 col-sm-1 hidden-xs"></div>-->
-  </div>
+    <div id="header">
+        <div class="container-fluid">
+            <div class="row">
+                <dvi class="col-md-12 hidden-xs hidden-sm">
+                    <div id="log" class="col-md-offset-1 col-md-2">
+                        <img src="images/new-logo.png" alt="">
+                    </div>
+                    <div id="part" class="col-md-2">
+                        <div id="login" class="col-xs-12">
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">登录</button>
+                                <ul class="dropdown-menu text-center" role="menu">
+                                    <li>简体中文</li>
+                                    <li>繁体中文</li>
+                                    <li>英文EN</li>
+                                </ul>
+                                <button type="button" class="btn btn-default"><a href="">登录</a></button>
+                            </div>
+                        </div>
+                        <div class="col-xs-12">
+                            <div class="input-group">
+                                <input type="text" class="form-control">
+                                <span class="input-group-btn">
+                                <button type="button" class="btn btn-default">搜索</button>
+                            </span>
+                            </div>
+                        </div>
+                    </div>
+                </dvi>
+                <div class="col-xs-12 hidden-lg hidden-md">
+                    <div id="log" class="col-xs-6">
+                        <img src="images/new-logo.png" alt="">
+                    </div>
+                    <div id="part" class="col-xs-6">
+                        <div id="login" class="col-xs-12">
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">登录</button>
+                                <ul class="dropdown-menu text-center" role="menu">
+                                    <li>简体中文</li>
+                                    <li>繁体中文</li>
+                                    <li>英文EN</li>
+                                </ul>
+                                <button type="button" class="btn btn-default"><a href="">登录</a></button>
+                            </div>
+                        </div>
+                        <div class="col-xs-12">
+                            <div class="input-group">
+                                <input type="text" class="form-control">
+                                <span class="input-group-btn">
+                                <button type="button" class="btn btn-default">搜索</button>
+                            </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <style>
+        #nav{
+            margin:auto;
+            text-align: center;
+        }
+        #log{
+            text-align: left;
+        }
+        #login{
+            padding: 5px 15px;
+            text-align: right;
+        }
+    </style>
 </template>

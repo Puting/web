@@ -1,0 +1,56 @@
+<template name="nav">
+    <div id="nav">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-offset-1 col-sm-10">
+                    <div class="nav-box">
+                        <ul class="nav nav-show">
+                            <li class="active" role="presentation"><a href="">首页</a></li>
+                            <li role="presentation"><a href="">产品中心</a></li>
+                            <li role="presentation"><a href="">合作伙伴</a></li>
+                            <li role="presentation"><a href="">客户服务</a></li>
+                            <li role="presentation"><a href="">新闻动态</a></li>
+                            <li role="presentation"><a href="">恒达社区</a></li>
+                            <li role="presentation"><a href="/aboutus">关于我们</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <style type="text/css">
+        #nav {
+            margin: auto;
+            text-align: center;
+            background-color: #616161;
+        }
+        .nav-box{
+            float:none;
+            display:inline-block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 0;
+        }
+        .nav-show{
+            /*background-color: #467cd4;*/
+
+        }
+        .nav-show li{
+            float:left;
+            font-size: 18px;
+            font-family: "Arial Narrow";
+            font-weight: bold;
+        }
+        .nav-show li a{
+            padding: 20px 40px;
+        }
+        .nav-show li a:hover{
+            color: #ffffff;
+            background-color:#467cd4;
+        }
+        .nav-show li a:focus{
+            color: #ffffff;
+            color: #467cd4;
+        }
+    </style>
+</template>
