@@ -63,7 +63,7 @@ p{word-wrap:break-word}
     margin: auto;
     padding-bottom: 15px;
     background-color:#07bc83;
-    padding-top: 15px;
+    border-bottom: none;
 }
 .service-num{
     margin:auto;
