@@ -24,6 +24,12 @@ twbs:bootstrap
 kadira:flow-router
 kadira:blaze-layout
 less
-accounts-ui
+accounts-base
 accounts-password
+accounts-ui
+useraccounts:core
+useraccounts:flow-routing
+useraccounts:bootstrap
+aldeed:autoform
 twbs:bootstrap-noglyph
+arillo:flow-router-helpers
