@@ -24,5 +24,10 @@ twbs:bootstrap
 kadira:flow-router
 kadira:blaze-layout
 
-scorpiusjs:accounts
-scorpiusjs:core
+accounts-base
+accounts-password
+accounts-ui
+useraccounts:core
+useraccounts:flow-routing
+useraccounts:bootstrap
+aldeed:autoform
