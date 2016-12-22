@@ -5,33 +5,29 @@
     <div id="main">
 
         <div class="container-fluid">
-            <div id="new" class="row">
-                <h1 style="margin-top: 116px;margin-bottom: 36px">新闻资讯</h1>
+            <div id="product" class="row">
+                <h1 style="margin-top: 116px;margin-bottom: 36px">产品中心</h1>
                 <div class="point" style="background-color:#02b8bf"></div>
-                <div class="col-md-12">
-                    {{> Template.dynamic template=news }}
+                <div class="col-xs-offset-2 col-xs-8">
+                    {{> Template.dynamic template=products }}
                 </div>
             </div>
             <div id="service" class="row">
-                <div class="col-sm-12">
+                <div class="col-xs-offset-2 col-xs-8">
                     <h1 style="margin-top: 116px;margin-bottom: 36px">客户服务</h1>
                     <div class="point" style="background-color:white"></div>
                     <div class="col-sm-6">
-                        <h1>打印机</h1>
+                        <img src="images/bk-p2.png" alt="">
                     </div>
                     <div class="col-sm-6">
                         <h1>线上课程</h1>
                     </div>
-                </div>
-                <div class="col-sm-12">
                     <div class="col-sm-6">
                         <h1>扫描仪</h1>
                     </div>
                     <div class="col-sm-6">
                         <h1>线下培训</h1>
                     </div>
-                </div>
-                <div class="col-sm-12">
                     <div class="col-sm-6">
                         <h1>软件</h1>
                     </div>
@@ -58,11 +54,12 @@
                     </div>
                 </div>
             </div>
-            <div id="product" class="row">
-                <div class="col-xs-12"></div>
-                <h1 style="margin-top: 116px;margin-bottom: 36px">产品中心</h1>
+            <div id="new" class="row">
+                <h1 style="margin-top: 116px;margin-bottom: 36px">新闻资讯</h1>
                 <div class="point" style="background-color:#02b8bf"></div>
-                {{> Template.dynamic template=products }}
+                <div class="col-xs-offset-2 col-xs-8">
+                    {{> Template.dynamic template=news }}
+                </div>
             </div>
             <div id="application" class="row">
                 <h1 style="margin-top: 116px;margin-bottom: 36px">教学应用</h1>
