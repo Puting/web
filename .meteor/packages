@@ -23,6 +23,6 @@ insecure@1.0.7                # Allow all DB writes from clients (for prototypin
 twbs:bootstrap
 kadira:flow-router
 kadira:blaze-layout
-less
-accounts-ui
-accounts-password
+
+scorpiusjs:accounts
+scorpiusjs:core
