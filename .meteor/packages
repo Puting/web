@@ -32,3 +32,4 @@ useraccounts:core
 useraccounts:flow-routing
 useraccounts:bootstrap
 aldeed:autoform
+twbs:bootstrap-noglyph
