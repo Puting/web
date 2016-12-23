@@ -2,72 +2,88 @@
     <div id="header">
         <div class="container-fluid">
             <div class="row">
-                <dvi class="col-md-12 hidden-xs hidden-sm">
-                    <div id="log" class="col-md-offset-1 col-md-2">
+                <div class="col-xs-12 ">
+                    <div id="logo" class="col-xs-offset-2 col-xs-2">
                         <img src="images/new-logo.png" alt="">
                     </div>
-                    <div id="part" class="col-md-2">
-                        <div id="login" class="col-xs-12">
-                            <div class="btn-group">
-                                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">登录</button>
-                                <ul class="dropdown-menu text-center" role="menu">
-                                    <li>简体中文</li>
-                                    <li>繁体中文</li>
-                                    <li>英文EN</li>
-                                </ul>
-                                <!-- {{> loginButtons }} -->
+                    <div id="other" class="col-xs-pull-1 col-xs-3 col-xs-offset-4 col-xs-4">
+                        <div id="sign-in" class="col-xs-12">
+                            <div class="icon">
+                                <img src="images/speakchange.png" alt="">
+                            </div>
+                            <div class="icon">
+                                <img src="images/sign-in.png" alt="">
+                            </div>
+                            <div class="icon">
+                                <img src="images/search.png" alt="">
                             </div>
                         </div>
-                        <div class="col-xs-12">
-                            <div class="input-group">
-                                <input type="text" class="form-control">
-                                <span class="input-group-btn">
-                                <button type="button" class="btn btn-default">搜索</button>
-                            </span>
-                            </div>
-                        </div>
-                    </div>
-                </dvi>
-                <div class="col-xs-12 hidden-lg hidden-md">
-                    <div id="log" class="col-xs-6">
-                        <img src="images/new-logo.png" alt="">
-                    </div>
-                    <div id="part" class="col-xs-6">
-                        <div id="login" class="col-xs-12">
-                            <div class="btn-group">
-                                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">登录</button>
-                                <ul class="dropdown-menu text-center" role="menu">
-                                    <li>简体中文</li>
-                                    <li>繁体中文</li>
-                                    <li>英文EN</li>
-                                </ul>
-                                <button type="button" class="btn btn-default"><a href="">登录</a></button>
-                            </div>
-                        </div>
-                        <div class="col-xs-12">
-                            <div class="input-group">
-                                <input type="text" class="form-control">
-                                <span class="input-group-btn">
-                                <button type="button" class="btn btn-default">搜索</button>
-                            </span>
-                            </div>
-                        </div>
-                    </div>
+                            <!--<div class="btn-group">-->
+                                <!--<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">-->
+                                    <!--登录-->
+                                <!--</button>-->
+                                <!--<ul class="dropdown-menu text-center" role="menu">-->
+                                    <!--<li>简体中文</li>-->
+                                    <!--<li>繁体中文</li>-->
+                                    <!--<li>英文EN</li>-->
+                                <!--</ul>-->
+                                <!--{{> loginButtons }}-->
+                            <!--</div>-->
+                        <!--</div>-->
+                        <!--<div class="col-xs-12">-->
+                            <!--<div class="input-group">-->
+                                <!--<input type="text" class="form-control">-->
+                                <!--<span class="input-group-btn">-->
+                                <!--<button type="button" class="btn btn-default">搜索</button>-->
+                            <!--</span>-->
+                            <!--</div>-->
+                        <!--</div>-->
+                    <!--</div>-->
                 </div>
+                <!--<div class="col-xs-12 hidden-lg hidden-md">-->
+                    <!--<div id="log" class="col-xs-6">-->
+                        <!--<img src="images/new-logo.png" alt="">-->
+                    <!--</div>-->
+                    <!--<div id="part" class="col-xs-6">-->
+                        <!--<div id="login" class="col-xs-12">-->
+                            <!--<div class="btn-group">-->
+                                <!--<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">-->
+                                    <!--登录-->
+                                <!--</button>-->
+                                <!--<ul class="dropdown-menu text-center" role="menu">-->
+                                    <!--<li>简体中文</li>-->
+                                    <!--<li>繁体中文</li>-->
+                                    <!--<li>英文EN</li>-->
+                                <!--</ul>-->
+                                <!--<button type="button" class="btn btn-default"><a href="">登录</a></button>-->
+                            <!--</div>-->
+                        <!--</div>-->
+                        <!--<div class="col-xs-12">-->
+                            <!--<div class="input-group">-->
+                                <!--<input type="text" class="form-control">-->
+                                <!--<span class="input-group-btn">-->
+                                <!--<button type="button" class="btn btn-default">搜索</button>-->
+                            <!--</span>-->
+                            <!--</div>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</div>-->
             </div>
         </div>
     </div>
+    </div>
     <style>
-        #nav{
-            margin:auto;
-            text-align: center;
-        }
-        #log{
+        #logo {
             text-align: left;
         }
-        #login{
+
+        #login {
             padding: 5px 15px;
             text-align: right;
+        }
+        .icon{
+            float: right;
+            margin:45px 10px 10px 0;
         }
     </style>
 </template>

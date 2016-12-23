@@ -11,7 +11,7 @@
                             <li role="presentation"><a href="{{pathFor '/customerService/:id' id=_id}}">客户服务</a></li>
                             <li role="presentation"><a href="{{pathFor '/newinformation/:id' id=_id}}">新闻动态</a></li>
                             <li role="presentation"><a href="">恒达社区</a></li>
-                            <li role="presentation"><a href="/aboutus">关于我们</a></li>
+                            <li role="presentation"><a href="{{pathFor '/aboutus/:id' id=_id}}">关于我们</a></li>
                         </ul>
                     </div>
                 </div>
@@ -22,7 +22,8 @@
         #nav {
             margin: auto;
             text-align: center;
-            background-color: #616161;
+            /*background-color: #616161;*/
+            background-color: #f0f0f0;
         }
         .nav-box{
             float:none;
@@ -43,6 +44,8 @@
         }
         .nav-show li a{
             padding: 20px 40px;
+            /*color: #ffffff;*/
+            color: #000;
         }
         .nav-show li a:hover{
             color: #ffffff;
