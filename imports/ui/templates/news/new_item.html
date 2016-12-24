@@ -1,6 +1,21 @@
 <template name="newItem">
   <div class="col-md-4">
-    <h1>{{title}}</h1>
-    <p>{{summary}}</p>
+    {{picture}}
+    <h3>{{title}}</h3>
+    <!--<p>{{summary}}</p>-->
+    <div class="col-xs-12">
+      <div id="box-news">
+        <div class="box-news">
+          <span class="glyphicon glyphicon-user">{{author}}</span>
+        </div>
+        <div class="box-news">
+          <span class="glyphicon glyphicon-sound-dolby">{{data}}</span>
+        </div>
+        <div class="box-news">
+          <span class="glyphicon glyphicon-comment">公司动态</span>
+        </div>
+      </div>
+    </div>
+
   </div>
 </template>

@@ -2,14 +2,29 @@
     <div id="header">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-xs-12 ">
-                    <div id="logo" class="col-xs-offset-2 col-xs-2">
+                <div class="col-md-10 col-md-offset-1 col-sm-12">
+                    <div id="logo" class="col-md-offset-1 col-md-2 col-xs-4">
                         <img src="images/new-logo.png" alt="">
                     </div>
-                    <div id="other" class="col-xs-pull-1 col-xs-3 col-xs-offset-4 col-xs-4">
-                        <div id="sign-in" class="col-xs-12">
+                    <div id="other" class="col-md-offset-7 col-md-2 col-xs-offset-4 col-xs-4" style="height: 80px">
+                        <div id="sign-in">
                             <div class="icon">
-                                <img src="images/speakchange.png" alt="">
+
+                                <div class="dropdown">
+                                    <img src="images/speakchange.png" alt="">
+                                        <!--<div class="btn-group">-->
+                                            <!--<button type="button" class="btn btn-default jq-dropdown-toggle" data-toggle="dropdown">-->
+                                                <!--Action <span class="caret"></span>-->
+                                            <!--</button>-->
+                                            <!--<ul class="dropdown-menu" role="menu">-->
+                                                <!--<li><a href="#">Action</a></li>-->
+                                                <!--<li><a href="#">Another action</a></li>-->
+                                                <!--<li><a href="#">Something else here</a></li>-->
+                                                <!--<li class="divider"></li>-->
+                                                <!--<li><a href="#">Separated link</a></li>-->
+                                            <!--</ul>-->
+                                        <!--</div>-->
+                                </div>
                             </div>
                             <div class="icon">
                                 <img src="images/sign-in.png" alt="">
@@ -18,56 +33,7 @@
                                 <img src="images/search.png" alt="">
                             </div>
                         </div>
-                            <!--<div class="btn-group">-->
-                                <!--<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">-->
-                                    <!--登录-->
-                                <!--</button>-->
-                                <!--<ul class="dropdown-menu text-center" role="menu">-->
-                                    <!--<li>简体中文</li>-->
-                                    <!--<li>繁体中文</li>-->
-                                    <!--<li>英文EN</li>-->
-                                <!--</ul>-->
-                                <!--{{> loginButtons }}-->
-                            <!--</div>-->
-                        <!--</div>-->
-                        <!--<div class="col-xs-12">-->
-                            <!--<div class="input-group">-->
-                                <!--<input type="text" class="form-control">-->
-                                <!--<span class="input-group-btn">-->
-                                <!--<button type="button" class="btn btn-default">搜索</button>-->
-                            <!--</span>-->
-                            <!--</div>-->
-                        <!--</div>-->
-                    <!--</div>-->
                 </div>
-                <!--<div class="col-xs-12 hidden-lg hidden-md">-->
-                    <!--<div id="log" class="col-xs-6">-->
-                        <!--<img src="images/new-logo.png" alt="">-->
-                    <!--</div>-->
-                    <!--<div id="part" class="col-xs-6">-->
-                        <!--<div id="login" class="col-xs-12">-->
-                            <!--<div class="btn-group">-->
-                                <!--<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">-->
-                                    <!--登录-->
-                                <!--</button>-->
-                                <!--<ul class="dropdown-menu text-center" role="menu">-->
-                                    <!--<li>简体中文</li>-->
-                                    <!--<li>繁体中文</li>-->
-                                    <!--<li>英文EN</li>-->
-                                <!--</ul>-->
-                                <!--<button type="button" class="btn btn-default"><a href="">登录</a></button>-->
-                            <!--</div>-->
-                        <!--</div>-->
-                        <!--<div class="col-xs-12">-->
-                            <!--<div class="input-group">-->
-                                <!--<input type="text" class="form-control">-->
-                                <!--<span class="input-group-btn">-->
-                                <!--<button type="button" class="btn btn-default">搜索</button>-->
-                            <!--</span>-->
-                            <!--</div>-->
-                        <!--</div>-->
-                    <!--</div>-->
-                <!--</div>-->
             </div>
         </div>
     </div>
@@ -77,13 +43,8 @@
             text-align: left;
         }
 
-        #login {
-            padding: 5px 15px;
-            text-align: right;
-        }
-        .icon{
-            float: right;
-            margin:45px 10px 10px 0;
+        #sign-in{
+            margin: auto;
         }
     </style>
 </template>

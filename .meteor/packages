@@ -33,3 +33,4 @@ useraccounts:bootstrap
 aldeed:autoform
 twbs:bootstrap-noglyph
 arillo:flow-router-helpers
+karfield:jquery-dropdown
