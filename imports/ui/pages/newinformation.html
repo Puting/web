@@ -1,3 +1,135 @@
 <template name="newInformationLayout">
-<h1>新闻动态</h1>
+    <style>
+        .nostyle{
+            padding: 0px;
+        }
+        .informationp1{
+            padding-top: 20px;
+            padding-left: 5%;
+            font-size: 18px;
+            font-family: 微软雅黑;
+        }
+        .setpadding{
+            padding-left: 10px;
+        }
+        .wordsize{
+            font-size: 14px;
+        }
+        .informationp2{
+            padding-top: 5px;
+            padding-left: 5%;
+            font-size: 14px;
+            font-family: 微软雅黑;
+        }
+        #productwhere{
+            text-align: right;
+            color: #273e80;
+            line-height: 35px;
+            font-family: 微软雅黑;
+        }
+        #paging{
+            text-align: right;
+        }
+    </style>
+    <div class="container-fluit">
+        {{> header }}
+        {{>nav}}
+        <div class="row">
+            <div class="col-md-1 hidden-sm hidden-xs " ></div>
+            <div class="col-md-2 col-sm-3 hidden-xs "  ></div>
+            <div class="col-md-7 col-sm-9 col-xs-12 " >
+                <div class="row nostyle">
+                    <div class="col-xs-11 nostyle" id="productwhere">
+                        <span class="glyphicon glyphicon-home"></span> 产品中心
+                        <span class="glyphicon glyphicon-play"></span> 全部产品
+                    </div>
+                </div>
+                <div class="row nostyle">
+                    <div class="col-md-6 nostyle ">
+                        <a href="{{pathFor '/newinformation/:id/informationDet/:cid' id=_id cid=informationDet._id}}">
+                            <img class="img-responsive" src="/images/information1.png">
+                        </a>
+                    </div>
+                    <div class="col-md-6 nostyle"  style="padding-bottom: 20px">
+                        <div class="row">
+                            <div class="col-md-12 ">
+                                <a href="{{pathFor '/newinformation/:id/informationDet/:cid' id=_id cid=informationDet._id}}">
+                                    <p class="informationp1">全程参与-3D打印教育培训火热云南省昭通市镇雄!</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row nostyle">
+                            <div class="col-sm-1 col-xs-1"></div>
+                            <div class=" col-sm-1 col-xs-1 nostyle" style="text-align: right">
+                                <img  src="/images/information2.png"/>
+                            </div>
+                            <div class=" col-sm-2 col-xs-3 setpadding nostyle wordsize">管理者</div>
+                            <div class="col-sm-1 col-xs-1 nostyle" style="text-align: right">
+                                <img src="/images/information3.png"/>
+                            </div>
+                            <div class="col-sm-4 col-xs-4 setpadding nostyle wordsize" >2016-12-18</div>
+                        </div>
+                        <div class="row nostyle">
+                            <div class="col-sm-1 col-xs-1"></div>
+                            <div class=" col-sm-1 col-xs-1 nostyle" style="text-align: right">
+                                <img  src="/images/information4.png"/>
+                            </div>
+                            <div class=" col-sm-3 col-xs-3 setpadding nostyle wordsize">公司动态</div>
+                        </div>
+                        <div class="col-xs-12 nostyle">
+                            <p class="informationp2">XXXXXXX···</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 nostyle ">
+                        <img class="img-responsive" src="/images/information1.png">
+                    </div>
+                    <div class="col-md-6 nostyle"  style="padding-bottom: 20px">
+                        <div class="row">
+                            <div class="col-md-12 ">
+                                <p class="informationp1">全程参与-3D打印教育培训火热云南省昭通市镇雄!</p>
+                            </div>
+                        </div>
+                        <div class="row nostyle">
+                            <div class="col-sm-1 col-xs-1"></div>
+                            <div class=" col-sm-1 col-xs-1 nostyle" style="text-align: right">
+                                <img  src="/images/information2.png"/>
+                            </div>
+                            <div class=" col-sm-2 col-xs-3 setpadding nostyle wordsize">管理者</div>
+                            <div class="col-sm-1 col-xs-1 nostyle" style="text-align: right">
+                                <img src="/images/information3.png"/>
+                            </div>
+                            <div class="col-sm-4 col-xs-4 setpadding nostyle wordsize" >2016-12-18</div>
+                        </div>
+                        <div class="row nostyle">
+                            <div class="col-sm-1 col-xs-1"></div>
+                            <div class=" col-sm-1 col-xs-1 nostyle" style="text-align: right">
+                                <img  src="/images/information4.png"/>
+                            </div>
+                            <div class=" col-sm-3 col-xs-3 setpadding nostyle wordsize">公司动态</div>
+                        </div>
+                        <div class="col-xs-12 nostyle">
+                            <p class="informationp2">XXXXXXX···</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs nostyle" id="paging">
+                    <nav>
+                        <ul class="pagination">
+                            <li><a href="#">&laquo;</a></li>
+                            <li><a href="#">1</a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#">3</a></li>
+                            <li><a href="#">4</a></li>
+                            <li><a href="#">5</a></li>
+                            <li><a href="#">&raquo;</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="col-md-2 hidden-sm hidden-xs " ></div>
+
+        </div>
+    </div>
 </template>

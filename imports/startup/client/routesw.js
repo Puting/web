@@ -5,6 +5,9 @@ import '../../ui/pages/product.js';
 import '../../ui/pages/newinformation.js';
 import '../../ui/pages/cooperativePartner.js';
 import '../../ui/pages/customerService.js';
+import '../../ui/pages/community.js';
+import '../../ui/pages/productDet.js';
+import '../../ui/pages/informationDet.js';
 // FlowRouter.route('/',{
 //   action:function(){
 //     BlazeLayout.render("mainLayout",{content:"newsList"});
@@ -31,3 +34,18 @@ FlowRouter.route('/customerService',{
         BlazeLayout.render("customerServiceLayout",);
         }
         });
+FlowRouter.route('/community',{
+    action:function(){
+        BlazeLayout.render("communityLayout",);
+    }
+});
+FlowRouter.route('/product/productDet',{
+    action:function(){
+        BlazeLayout.render("productDetLayout",);
+    }
+});
+FlowRouter.route('/newinformation/informationDet',{
+    action:function(){
+        BlazeLayout.render("informationDetLayout",);
+    }
+});

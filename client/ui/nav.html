@@ -5,12 +5,12 @@
                 <div class="col-sm-offset-1 col-sm-10">
                     <div class="nav-box">
                         <ul class="nav nav-show">
-                            <li class="active" role="presentation"><a href="">首页</a></li>
+                            <li class="active" role="presentation"><a href="{{pathFor '/main/:id' id=_id}}">首页</a></li>
                             <li role="presentation"><a href="{{pathFor '/product/:id' id=_id}}">产品中心</a></li>
                             <li role="presentation"><a href="{{pathFor '/cooperativePartner/:id' id=_id}}">合作伙伴</a></li>
                             <li role="presentation"><a href="{{pathFor '/customerService/:id' id=_id}}">客户服务</a></li>
                             <li role="presentation"><a href="{{pathFor '/newinformation/:id' id=_id}}">新闻动态</a></li>
-                            <li role="presentation"><a href="">恒达社区</a></li>
+                            <li role="presentation"><a href="{{pathFor '/community/:id' id=_id}}">恒达社区</a></li>
                             <li role="presentation"><a href="/aboutus">关于我们</a></li>
                         </ul>
                     </div>

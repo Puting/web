@@ -8,7 +8,7 @@ import '../../admin/pages/admin';
 //     BlazeLayout.render("mainLayout",{content:"newsList"});
 //   }
 // });
-FlowRouter.route('/',{
+FlowRouter.route('/main',{
   action:function(){
     BlazeLayout.render("mainLayout",{news:"newsList",products:"productsList"});
   }
